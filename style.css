@@ -1,0 +1,367 @@
+body, html{
+    margin: opx;
+    padding: opx;
+    background-color: #f8f8fe;
+    background-image: url("./images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 1000vh 140vw;
+    background-position-y: -400px;
+    background-position-x: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 66px;
+    padding-inline: 6%;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 107px;
+    padding-inline: 6%;
+    padding-block: 80px;
+    background-color: #575988;
+    flex-wrap: wrap;
+}
+.light-header{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.light-text{
+    color: #FFFFFF !important;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.dark-bg{
+    padding-top: 100px;
+}
+.option{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #07043B;
+}
+.logo{
+    width: 165px;
+}
+.cta-section{
+    padding-inline: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.offer-container{
+    width: 45%;
+}
+.image-contaisner{
+    width: 50%;
+}
+.illustration1{
+    width: 640px;
+}
+.offer-header{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #07043B;
+    margin-block: 0px;
+}
+.offer-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 585px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+}
+.offer-input{
+    padding: 0px;
+    width: 320px;
+    height: 44.37px;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;  
+    text-indent: 26px;
+    color: #C2C2C2;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.466667px;
+
+}
+.offer-cta{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;    
+    border: none;
+    width: 200px;
+    height: 45px;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+}
+.card-container{
+    width: 323px;
+    padding-inline: 33px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+    border-radius: 5px;
+    font-family: 'Open Sans';
+
+    font-style: normal;
+    border-radius: 5px;
+    color: #07043B;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.testimonial-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.testimonial-avatar{
+    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.name{
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.55px;
+    line-height: 15px;
+    margin: 0px;
+}
+.company{
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 0.4px;
+    margin: 0px;
+    line-height: 15px;
+
+}
+.offer-link{
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon{
+    width: 16px;
+    height: 16px;
+}
+.separator{
+    display: flex;
+    height: 212px;
+
+}
+.cta-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3DA08F;
+    vertical-align: middle;
+    margin-right: 8px;
+    
+}
+.free-trial-container{
+    display: flex;
+    flex-direction: column;
+}
+.trial-input{
+    padding: 0px;
+    width: 480px;
+    height: 48px;
+    border-radius: 3.125px;  
+    background: #FFFFFF;
+    border: none;
+    margin-bottom: 16px;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    text-indent: 26px;
+    color: #C2C2C2;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.466667px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding-block: 66px;
+    padding-inline: 6%;
+    background-color: #07043B;
+}
+.logo-container{
+    width: 100%;
+    margin-bottom: 37px;
+}
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 130px;
+}
+.footer-icon{
+    margin-right: 19px;
+}
+.footer-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-text:hover{
+    color: #6C9BFF;
+}
+.offer-cta:hover{
+    background-color: #6C9BFF;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .offer-header{
+        width: 320px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .offer-text{
+        width: 296px;
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+    .illustration1{
+        width: 450px;
+    }
+    .light-header{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .offer-cta{
+        margin-top: 16px;
+    }
+}
+@media screen and (max-width: 900px){
+    body, html{
+
+        background-repeat: no-repeat;
+        background-size: 1900vh 190vw;
+        background-position-y: 0px;
+        background-position-x: center;
+    }
+    .cta-section{
+        justify-content: center;
+    }
+    .illustration1{
+        width: 320px;
+    }
+    .offer-cta{
+        width: 324px;
+        margin-top: 16px;
+    }
+    header{
+        margin-block: 24px;
+    }
+    .nav-options{
+        width: 55%;
+    }
+    .logo{
+        width: 95px;
+    }
+    .offer-text{
+        width: 310px;
+
+    }
+    .offer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    .card-container{
+        width: 255px;
+        padding-inline: 25px;
+        height: 169px;
+        border-radius: 4px;
+    }
+    .card-text{
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 0.384615px;
+    }
+    .arrow-icon{
+        margin-bottom: -5px;
+    }
+    .cta-link{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .trial-input, .dark-btn{
+        width: 240px;
+        height: 32px;
+    }
+    .contact{
+        justify-content: center;
+    }
+    .acces-div{
+        text-align: center;
+    }
+    .footer-column{
+        width: 60%;
+    }
+    .separator{
+        height: 83px;
+    }
+}
+
+
